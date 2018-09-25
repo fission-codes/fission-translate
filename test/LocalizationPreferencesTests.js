@@ -6,7 +6,7 @@ contract('LocalizationPreferencesTests', async (accounts) => {
   let frenchLocalizationInstance;
   let localizationPreferencesInstance;
 
-  beforeEach('Setup', async () => {
+  beforeEach('setup', async () => {
     defaultLocalizationInstance = await Localization.deployed();
     defaultLocalizationInstance.set("0x01", "Success");
     defaultLocalizationInstance.set("0x00", "Failure");
@@ -19,13 +19,31 @@ contract('LocalizationPreferencesTests', async (accounts) => {
     localizationPreferencesInstance.set(frenchLocalizationInstance.address);
   });
 
-  it("Should be possible to get text for a given code", async () => {
-    const [success, text] = await localizationPreferencesInstance.get("0x01");
+  it("should get text for a given code", async () => {
+    const result = await localizationPreferencesInstance.get("0x01");
 
-    expect(success).to.equal(true);
-    expect(text).to.equal("Succès");
+    expect(result).to.eql([true, "Succès"]);
   });
 
-  it("Should be possible to set text for a new code", async () => {});
-  it("Should be possible to fallback to the default localization", async () => {});
+  it("should set a new localization", async () => {
+    spanishLocalizationInstance = await Localization.new();
+    spanishLocalizationInstance.set("0x01", "Éxito");
+
+    localizationPreferencesInstance.set(spanishLocalizationInstance.address);
+
+    const result = await localizationPreferencesInstance.get("0x01");
+
+    expect(result).to.eql([true, "Éxito"]);
+  });
+
+  it("should fallback to the default localization", async () => {
+    spanishLocalizationInstance = await Localization.new();
+    spanishLocalizationInstance.set("0x01", "Éxito");
+
+    localizationPreferencesInstance.set(spanishLocalizationInstance.address);
+
+    const result = await localizationPreferencesInstance.get("0x00");
+
+    expect(result).to.eql([false, "Failure"]);
+  });
 });
