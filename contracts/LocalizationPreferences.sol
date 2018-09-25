@@ -16,18 +16,18 @@ contract LocalizationPreferences {
     return true;
   }
 
-  function get(bytes32 _code) external view returns (bool, string) {
-    return get(_code, tx.origin);
-  }
-
   // Primarily for testing
-  function get(bytes32 _code, address _who) public view returns (bool, string) {
+  function getFor(bytes32 _code, address _who) public view returns (bool, string) {
     string memory text = getLocalizationFor(_who).textFor(_code);
     if (keccak256(abi.encodePacked(text)) != empty_) {
       return (true, text);
     } else {
       return (false, defaultLocalization.textFor(_code));
     }
+  }
+
+  function get(bytes32 _code) external view returns (bool, string) {
+    return getFor(_code, tx.origin);
   }
 
   function getLocalizationFor(address _who) internal view returns (Localization) {
