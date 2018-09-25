@@ -13,5 +13,5 @@ This is an implementation of [EIP-1444](https://github.com/ethereum/EIPs/pull/14
 
 1. Clone the repo
 2. `npm install`
-3. `truffle compile; truffle migrate`
+3. `truffle compile`
 4. `truffle test`
