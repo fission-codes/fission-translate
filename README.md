@@ -10,6 +10,7 @@ This is an implementation of [EIP-1444](https://github.com/ethereum/EIPs/pull/14
 ### Prerequisites
 
 * NodeJS, v8.11.4 or higher
+* Truffle, v4.1.14
 
 ### Installation
 
