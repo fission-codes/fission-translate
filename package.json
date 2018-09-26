@@ -13,7 +13,7 @@
     "test:lint": "eslint -c .eslintrc . --color=true --quiet",
     "test:lint:fix": "eslint -c .eslintrc . --color=true --quiet --fix",
     "truffle:compile": "truffle compile",
-    "start:testrpc": "ganache-cli -u 0 -s frontier-seed",
+    "coverage": "./node_modules/.bin/solidity-coverage",
     "watch": "npm-watch"
   },
   "watch": {
