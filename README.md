@@ -1,7 +1,7 @@
 # FISSION Translations
 Translations for [FISSION Codes](https://ethereumstatus.codes/)
 
-![Build Status](https://travis-ci.org/jenncoop/localized-messaging.svg?branch=master) ![Coverage Status](https://coveralls.io/repos/github/jenncoop/localized-messaging/badge.svg)
+![Build Status](https://travis-ci.org/jenncoop/fission-translate.svg?branch=master) ![Coverage Status](https://coveralls.io/repos/github/jenncoop/localized-messaging/badge.svg)
 
 ## Summary
 
