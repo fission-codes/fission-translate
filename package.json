@@ -2,10 +2,26 @@
   "name": "fission-translations",
   "version": "0.1.0",
   "description": "An on-chain system for providing user feedback by converting machine-efficient codes into human-readable strings in any language or phrasing.",
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "translations",
+    "fission",
+    "eip",
+    "erc",
+    "1444",
+    "1066"
+  ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/jenncoop/fission-translations.git"
   },
+  "bugs": {
+    "url": "https://github.com/jenncoop/fission-translations/issues"
+  },
+  "main": "index.js",
   "license": "Apache-2.0",
+  "author": "Jenn Cooper <cooper.jennl@gmail.com>",
   "scripts": {
     "postinstall": "echo \"\n\n\n\ncontracts included in this project require compilation on a fresh checkout: npm run truffle:compile\n\n\n\n\"",
     "pretest": "./ensure-ganache-running.sh || (npm run start:testrpc &)",
