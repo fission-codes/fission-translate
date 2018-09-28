@@ -8,7 +8,6 @@ node_js:
 before_install:
   - npm install -g npm@latest
   - npm install -g ganache-cli
-  - npm install -g coveralls
   - npm install -g truffle
 
 install:
@@ -18,4 +17,4 @@ script:
   - truffle compile
   - ganache-cli -p 7545 > /dev/null &
   - truffle migrate
-  - npm run coverage && cat coverage/lcov.info | coveralls
+  - npm run coverage
