@@ -6,7 +6,7 @@ contract("LocalizationPreferencesTests", async (accounts) => {
   let localizationPreferencesInstance;
 
   before("setup", async () => {
-    defaultLocalizationInstance = await Localization.deployed();
+    defaultLocalizationInstance = await Localization.new();
     await defaultLocalizationInstance.set(web3.utils.toHex("0x01"), "Success");
     await defaultLocalizationInstance.set(web3.utils.toHex("0x00"), "Failure");
 

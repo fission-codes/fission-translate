@@ -4,7 +4,7 @@ contract("LocalizationTests", async (accounts) => {
   let localizationInstance;
 
   before("setup", async () => {
-    localizationInstance = await Localization.deployed();
+    localizationInstance = await Localization.new();
     await localizationInstance.set(web3.utils.toHex("0x01"), "Success");
   });
 

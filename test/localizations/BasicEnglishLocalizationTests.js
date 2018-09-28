@@ -1,13 +1,10 @@
-var BasicEnglishLocalization = artifacts.require("./BasicEnglishLocalization.sol");
 var LocalizationPreferences = artifacts.require("./LocalizationPreferences.sol");
 
 contract("BasicEnglishLocalizationTests", async (accounts) => {
-  let basicEnglishLocalizationInstance;
   let localizationPreferencesInstance;
 
   before("setup", async () => {
-    basicEnglishLocalizationInstance = await BasicEnglishLocalization.deployed();
-    localizationPreferencesInstance = await LocalizationPreferences.new(basicEnglishLocalizationInstance.address);
+    localizationPreferencesInstance = await LocalizationPreferences.deployed();
   });
 
   it("gets the correct string for a given code", async () => {
