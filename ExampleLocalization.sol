@@ -2,7 +2,16 @@ pragma solidity ^0.4.24;
 
 import "../FissionLocalization.sol";
 
-contract BasicEnglishLocalization is FissionLocalization {
+/*
+Please leave this file as is.
+
+When using this file as a template for submitting a translation,
+please duplicate this file first.
+
+For information regarding submitting a translation for review,
+please see: http://github.com/jenncoop/fission-translate/TRANSLATIONS_CONTRIBUTION_GUIDELINES.md
+*/
+contract ExampleLocalization is FissionLocalization {
   constructor() public {
     set(hex"00", "Failure");
     set(hex"01", "Success");
