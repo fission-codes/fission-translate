@@ -1,5 +1,5 @@
-var Localization = artifacts.require("./Localization.sol"); // eslint-disable-line no-undef
+var BasicEnglishLocalization = artifacts.require("./BasicEnglishLocalization.sol"); // eslint-disable-line no-undef
 
 module.exports = (deployer) => {
-  deployer.deploy(Localization);
+  deployer.deploy(BasicEnglishLocalization);
 };
