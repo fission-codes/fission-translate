@@ -1,7 +1,7 @@
 {
   "name": "fission-translations",
   "version": "0.1.0",
-  "description": "An on-chain system for providing user feedback by converting machine-efficient codes into human-readable strings in any language or phrasing.",
+  "description": "An on-chain system for providing culturally and linguistically accurate user feedback by converting machine-efficient codes into human-readable strings in any language or phrasing.",
   "keywords": [
     "ethereum",
     "solidity",
