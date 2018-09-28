@@ -15,6 +15,6 @@ install:
 
 script:
   - truffle compile
-  - ganache-cli -p 7545 > /dev/null &
+  - ganache-cli -p 8545 > /dev/null &
   - truffle migrate
   - npm run coverage
