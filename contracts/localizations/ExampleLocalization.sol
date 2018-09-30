@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-import "../FissionLocalization.sol";
+import "../../node_modules/ethereum-localized-messaging/contracts/Localization.sol";
 
 /*
 Please leave this file as is.
@@ -11,7 +11,7 @@ please duplicate this file first.
 For information regarding submitting a translation for review,
 please see: http://github.com/jenncoop/fission-translate/TRANSLATIONS_CONTRIBUTION_GUIDELINES.md
 */
-contract ExampleLocalization is FissionLocalization {
+contract ExampleLocalization is Localization {
   constructor() public {
     set(hex"00", "Failure");
     set(hex"01", "Success");
