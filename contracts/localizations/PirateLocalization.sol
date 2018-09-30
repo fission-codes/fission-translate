@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-import "../../node_modules/ethereum-localized-messaging/contracts/Localization.sol";
+import "ethereum-localized-messaging/contracts/Localization.sol";
 
 contract PirateLocalization is Localization {
   constructor() public {
