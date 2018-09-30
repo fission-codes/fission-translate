@@ -54,7 +54,7 @@
     "solidity-coverage": "^0.5.11"
   },
   "engines": {
-    "node": "8.4"
+    "node": "10.11"
   },
   "dependencies": {
     "ethereum-localized-messaging": "^0.1.0",
