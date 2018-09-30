@@ -43,7 +43,6 @@ If you are an [ILR Level 4 or 5](https://https://en.wikipedia.org/wiki/ILR_scale
 
 #### Installation
 
-1. Clone the repo
 2. `npm install`
 3. `truffle compile`
 4. `truffle migrate`
