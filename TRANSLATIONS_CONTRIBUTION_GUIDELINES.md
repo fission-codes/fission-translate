@@ -10,7 +10,7 @@ A basic understanding of Github is required to contribute to this repo - you do 
 
 1. Fork this repo and clone your forked version so you have a local copy on your computer.
 
-1. Navigate to the project on your computer and open the `ExampleLocalization.sol` file in a text editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/). You can find this file in the root directory of the project.
+1. Navigate to the project on your computer and open the `ExampleLocalization.sol` file in a text editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/). You can find this file in the root directory.
 
 2. Save your version of this file in the `localizations` folder as `<the language you are translating to>Localization.sol`. For instance, if you are submitting a Spanish translation, the file name will be `SpanishLocalization.sol`.
 
