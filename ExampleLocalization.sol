@@ -2,15 +2,6 @@ pragma solidity ^0.4.24;
 
 import "ethereum-localized-messaging/contracts/Localization.sol";
 
-/*
-Please leave this file as is.
-
-When using this file as a template for submitting a translation,
-please duplicate this file first.
-
-For information regarding submitting a translation for review,
-please see: http://github.com/jenncoop/fission-translate/TRANSLATIONS_CONTRIBUTION_GUIDELINES.md
-*/
 contract ExampleLocalization is Localization {
   constructor() public {
     set(hex"00", "Failure");

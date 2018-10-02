@@ -2,15 +2,6 @@ pragma solidity ^0.4.24;
 
 import "ethereum-localized-messaging/contracts/Localization.sol";
 
-/*
-Por favor no modificar este archivo.
-
-Cuando utilices este archivo como modelo para enviar traducciones,
-primero duplica este archivo.
-
-Para mayor informacion respecto a entregas de traduccion,
-visita: http://github.com/jenncoop/fission-translate/TRANSLATIONS_CONTRIBUTION_GUIDELINES.md
-*/
 contract SpanishLocalization is Localization {
   constructor() public {
     set(hex"00", "Fallo");
