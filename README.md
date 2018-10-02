@@ -16,10 +16,6 @@ Our collected translations are always evolving. If you would like to submit a tr
 
 *We will update this list as we acquire more translations. If you require a translation that is currently not available, please submit an issue*
 
-## Quick Start
-
-`npm install fission-translate`
-
 ## Contributing
 
 ### Translations Bounties
