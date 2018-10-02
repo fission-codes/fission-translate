@@ -22,7 +22,7 @@ Our collected translations are always evolving. If you would like to submit a tr
 
 We are currently seeking contributors to help with translating English messages to other languages.
 
-See [our listings on Bounties Network](https://) for the currently available translations bounties.
+See [our listings on Bounties Network](https://explorer.bounties.network/profile/0xa4be5ffe86423f5ecae5e011abf69870bf42f5f8?bountyStage=active&platform=bounties-network%2Cgitcoin) for the currently available translations bounties.
 
 See the [Translations Contribution Guidelines](https://github.com/jenncoop/fission-translate/blob/master/TRANSLATIONS_CONTRIBUTION_GUIDELINES.md) for information regarding submitting a translation.
 
