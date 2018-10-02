@@ -24,7 +24,7 @@ contract SpanishLocalization is FissionLocalization {
 
 3. Swap out the English text for your translated text.
 
-4. Submit a pull request to the [Fission Translate](https://github.com/jenncoop/fission-translate) repo with your changes.
+4. Submit a pull request to the [Fission Translate](https://github.com/jenncoop/fission-translate) repo with your changes. If you need more information on how to do this, Github has some great documentation [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
 
 5. Give yourself a high five and pat on the back because YOU ARE AWESOME.
 
