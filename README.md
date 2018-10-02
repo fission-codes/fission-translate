@@ -30,8 +30,6 @@ See [our listings on Bounties Network](https://) for the currently available tra
 
 See the [Translations Contribution Guidelines](https://github.com/jenncoop/fission-translate/blob/master/TRANSLATIONS_CONTRIBUTION_GUIDELINES.md) for information regarding submitting a translation.
 
-Having culturally and linguistically accurate translations is an important and necessary goal for Ethereum. The current state-of-the-art involves providing end users with hard-coded messaging (typically in English). This approach serves only a small segment of the global population. The FISSION Suite attempts to address this issue by providing culturally and linguistically diverse user feedback in a maximally decentralized way.
-
 If you are an [ILR Level 4 or 5](https://https://en.wikipedia.org/wiki/ILR_scale) speaker in a language that is not present in the list of bountied translations, we would love to speak with you! Please reach out by submitting an issue.
 
 ### Library Contributions
