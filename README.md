@@ -12,6 +12,7 @@ Our collected translations are always evolving. If you would like to submit a tr
 
 ## List of Available Translations
 * Basic English
+* Spanish
 * Pirate
 
 *We will update this list as we acquire more translations. If you require a translation that is currently not available, please submit an issue*
