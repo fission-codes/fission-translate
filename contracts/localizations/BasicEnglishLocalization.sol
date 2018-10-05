@@ -1,8 +1,8 @@
 pragma solidity ^0.4.24;
 
-import "ethereum-localized-messaging/contracts/Localization.sol";
+import "./FissionLocalization.sol";
 
-contract BasicEnglishLocalization is Localization {
+contract BasicEnglishLocalization is FissionLocalization {
   constructor() public {
     set(hex"00", "Failure");
     set(hex"01", "Success");
