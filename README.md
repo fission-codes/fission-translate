@@ -34,7 +34,7 @@ If you are an [ILR Level 4 or 5](https://https://en.wikipedia.org/wiki/ILR_scale
 #### Prerequisites
 
 * NodeJS, v10.11.0 or higher
-* Truffle, v5.0.0-beta.00
+* Truffle, v5.0.0-beta.0
 
 #### Installation
 
