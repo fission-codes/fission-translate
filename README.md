@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fission-suite/fission-translate.svg?branch=master)](https://travis-ci.org/fission-suite/fission-translate)
 [![Coverage Status](https://coveralls.io/repos/github/fission-suite/fission-translate/badge.svg?branch=master)](https://coveralls.io/github/fission-suite/fission-translate?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4ea95c4b75a076d703b2/maintainability)](https://codeclimate.com/github/fission-suite/fission-translate/maintainability)
 
 ## Summary
 
