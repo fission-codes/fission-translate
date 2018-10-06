@@ -1,6 +1,7 @@
 # FISSION Translate
 
-![Build Status](https://travis-ci.org/jenncoop/fission-translate.svg?branch=master) ![Coverage Status](https://coveralls.io/repos/github/jenncoop/fission-translate/badge.svg)
+[![Build Status](https://travis-ci.org/fission-suite/fission-translate.svg?branch=master)](https://travis-ci.org/fission-suite/fission-translate)
+![Coverage Status](https://coveralls.io/repos/github/jenncoop/fission-translate/badge.svg)
 
 ## Summary
 
