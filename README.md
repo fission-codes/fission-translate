@@ -3,6 +3,9 @@
 [![Build Status](https://travis-ci.org/fission-suite/fission-translate.svg?branch=master)](https://travis-ci.org/fission-suite/fission-translate)
 [![Coverage Status](https://coveralls.io/repos/github/fission-suite/fission-translate/badge.svg?branch=master)](https://coveralls.io/github/fission-suite/fission-translate?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4ea95c4b75a076d703b2/maintainability)](https://codeclimate.com/github/fission-suite/fission-translate/maintainability)
+[![Built with ❤ by SPADE Co](https://img.shields.io/badge/built%20with%20%F0%9F%92%96%20by-SPADE%20Co-purple.svg)](https://spade.builders)
+[![ERC1066](https://img.shields.io/badge/ERC-1066-42A.svg)](https://eips.ethereum.org/EIPS/eip-1066)
+[![ERC1444](https://img.shields.io/badge/ERC-1444-414.svg)](https://github.com/ethereum/EIPs/blob/56f86922bbd3777174cdbf2e0d01d38c6306b9c0/EIPS/eip-1444.md)
 
 ## Summary
 
