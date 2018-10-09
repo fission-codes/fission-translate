@@ -1,0 +1,1 @@
+./contracts/localizations/BasicEnglishLocalization.sol
