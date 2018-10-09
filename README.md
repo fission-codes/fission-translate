@@ -10,6 +10,7 @@
 ## Table of Contents
 
 * [Summary](#summary)
+* [Motivation](#motivation)
 * [Contributing as a Translator](#contributing-as-a-translator)
   * [Prerequisites](#prerequisites)
   * [Submitting a Translation](#submitting-a-translation)
@@ -17,11 +18,17 @@
 
 ## Summary
 
+The "official" collection of human-readable translations of [FISSION Codes](https://github.com/fission-suite/fission-codes/).
+
+From a _technical_ perspective, there is nothing special about these translations. _Anyone can [write](https://github.com/fission-suite/fission-codes/blob/master/contracts/localization/FissionLocalization.sol), deploy, and [use](https://github.com/ethereum/EIPs/blob/56f86922bbd3777174cdbf2e0d01d38c6306b9c0/EIPS/eip-1444.md) a translation of their own creation without using this repo._
+
+Our curated collection of translations is always evolving. Please see [`./contracts/localizations/`](https://github.com/fission-suite/fission-translate/tree/master/contracts/localizations) for a complete list.
+
+## Motivation
+
 Having culturally and linguistically accurate translations is an important and necessary goal for Ethereum. The current state-of-the-art involves providing end users with hard-coded messaging (typically in English). This approach serves only a small segment of the global population. The FISSION Suite attempts to address this issue by providing culturally and linguistically diverse user feedback in a maximally decentralized way.
 
 In order to make [FISSION Codes](https://github.com/fission-suite/fission-codes) accessible to a diverse end user base, FISSION Translate contributors are working towards providing translations of FISSION Codes in different languages, phrasings, and in varying levels of technical detail.
-
-Our collected translations are always evolving.
 
 ## Contributing as a Translator
 
