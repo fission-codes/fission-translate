@@ -1,4 +1,4 @@
-![](/brand/logo.png)
+![](/brand/logo-colour.png)
 
 [![Build Status](https://travis-ci.org/fission-suite/fission-translate.svg?branch=master)](https://travis-ci.org/fission-suite/fission-translate)
 [![Coverage Status](https://coveralls.io/repos/github/fission-suite/fission-translate/badge.svg?branch=master)](https://coveralls.io/github/fission-suite/fission-translate?branch=master)
