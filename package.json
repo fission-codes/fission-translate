@@ -1,7 +1,7 @@
 {
-  "name": "fission-translations",
+  "name": "fission-translate",
   "version": "0.1.0",
-  "description": "An on-chain system for providing culturally and linguistically accurate user feedback by converting machine-efficient codes into human-readable strings in any language or phrasing.",
+  "description": "An on-chain system for providing accurate and understandable user feedback by converting machine-efficient codes into human-readable strings in any language or phrasing",
   "keywords": [
     "ethereum",
     "solidity",
@@ -14,22 +14,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jenncoop/fission-translations.git"
+    "url": "git+https://github.com/fission-suite/fission-translate.git"
   },
   "bugs": {
-    "url": "https://github.com/jenncoop/fission-translations/issues"
+    "url": "https://github.com/fission-suite/fission-translate/issues"
   },
   "main": "index.js",
   "license": "Apache-2.0",
-  "author": "Jenn Cooper <cooper.jennl@gmail.com>",
+  "contributors": [
+    "Brooklyn Zelenka <hello@brooklynzelenka.com>",
+    "Jennifer Cooper <cooper.jennl@gmail.com>"
+  ],
   "scripts": {
+    "coverage": "./node_modules/.bin/solidity-coverage",
     "postinstall": "echo \"\n\n\n\ncontracts included in this project require compilation on a fresh checkout: npm run truffle:compile\n\n\n\n\"",
     "pretest": "./ensure-ganache-running.sh || (npm run start:testrpc &)",
+    "start:testrpc": "ganache-cli -u 0",
     "test": "truffle test",
     "test:lint": "eslint -c .eslintrc . --color=true --quiet",
     "test:lint:fix": "eslint -c .eslintrc . --color=true --quiet --fix",
     "truffle:compile": "truffle compile",
-    "coverage": "./node_modules/.bin/solidity-coverage",
+    "truffle:migrate": "truffle migrate",
     "watch": "npm-watch"
   },
   "watch": {
@@ -42,24 +47,24 @@
     }
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^5.6.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.9.0",
-    "ganache-cli": "^6.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "ganache-cli": "^6.3.0",
     "mocha": "^5.2.0",
     "npm-watch": "^0.4.0",
     "openzeppelin-solidity": "^1.12.0",
-    "solhint": "^1.1.10",
+    "solhint": "^1.5.1",
     "solidity-coverage": "^0.5.11"
   },
   "engines": {
     "node": "10.11"
   },
   "dependencies": {
-    "ethereum-localized-messaging": "^1.1.0",
+    "ethereum-localized-messaging": "^2.1.4",
     "ethereumjs-tx": "^1.3.4",
-    "truffle": "^5.0.0-beta.00",
-    "web3": "^1.0.0-beta.36"
+    "truffle": "^5.0.3",
+    "web3": "^1.0.0-beta.41"
   }
 }
