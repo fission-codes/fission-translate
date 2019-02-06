@@ -1,15 +1,25 @@
 var BasicEnglishLocalization = artifacts.require("BasicEnglishLocalization.sol");
 
 contract("BasicEnglishLocalizationTests", async (accounts) => {
-  let basicEnglishLocalizationInstance;
+  let basicEnglish;
 
   before("setup", async () => {
-    basicEnglishLocalizationInstance = await BasicEnglishLocalization.deployed();
+    basicEnglish = await BasicEnglishLocalization.deployed();
   });
 
   it("gets the correct string for a given code", async () => {
-    const result = await basicEnglishLocalizationInstance.textFor(web3.utils.toHex("0x00"));
+    expect(await basicEnglish.textFor(web3.utils.toHex("0x00"))).to.eql("Failure");
+  });
 
-    expect(result).to.eql("Failure");
+  describe('#log', () => {
+    it('emits a FissionCode event', async () => {
+      const tx = await basicEnglish.log('0x01');
+      expect(tx.logs[0].event).to.equal('FissionCode');
+    });
+
+    it('emits the correct message', async () => {
+      const tx = await basicEnglish.log('0x01');
+      expect(tx.logs[0].args[1]).to.equal('Success');
+    });
   });
 });
