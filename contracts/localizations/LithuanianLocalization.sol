@@ -35,7 +35,7 @@ contract LithuanianLocalization is FissionLocalization {
         set(hex"28", "Dublikatas, konfliktas, ar susidūrimas");
         set(hex"2F", "Sutampantys meta arba Info");
 
-        set(hex"30", "Siuntėjas nesutinka arba "Ne");
+        set(hex"30", "Siuntėjas nesutinka arba Ne");
         set(hex"31", "Siuntėjas sutinka arba Taip");
         set(hex"32", "Laukiama ratifikavimas");
         set(hex"33", "Siūlau laiškų arba balsavo");
