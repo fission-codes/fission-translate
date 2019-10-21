@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Western FrisianLocalization is FissionLocalization {
+contract WesternFrisianLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "Mislearring");
