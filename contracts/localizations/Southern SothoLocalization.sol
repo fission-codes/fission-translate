@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Southern SothoLocalization is FissionLocalization {
+contract SouthernSothoLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "hloleha");

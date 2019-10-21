@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Sinhala, SinhaleseLocalization is FissionLocalization {
+contract SinhalaSinhaleseLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "අසමත් වීම");

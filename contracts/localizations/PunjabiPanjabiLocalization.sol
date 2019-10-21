@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Punjabi, PanjabiLocalization is FissionLocalization {
+contract PunjabiPanjabiLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "ਅਸਫ਼ਲਤਾ");

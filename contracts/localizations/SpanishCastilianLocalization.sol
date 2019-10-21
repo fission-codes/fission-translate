@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Spanish, CastilianLocalization is FissionLocalization {
+contract SpanishCastilianLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "Fracaso");

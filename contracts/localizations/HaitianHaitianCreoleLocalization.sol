@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Haitian, Haitian CreoleLocalization is FissionLocalization {
+contract HaitianHaitianCreoleLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "Si");
