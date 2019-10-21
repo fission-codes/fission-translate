@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Pashto, PushtoLocalization is FissionLocalization {
+contract PashtoPushtoLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "راتلل");

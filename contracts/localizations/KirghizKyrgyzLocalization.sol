@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Kirghiz, KyrgyzLocalization is FissionLocalization {
+contract KirghizKyrgyzLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "бузуу");

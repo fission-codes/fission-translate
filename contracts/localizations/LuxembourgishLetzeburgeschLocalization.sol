@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Luxembourgish, LetzeburgeschLocalization is FissionLocalization {
+contract LuxembourgishLetzeburgeschLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "Echec");

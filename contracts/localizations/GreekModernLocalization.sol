@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Greek, Modern (1453-)Localization is FissionLocalization {
+contract GreekModernLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "Αποτυχία");

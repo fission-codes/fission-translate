@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Gaelic, Scottish GaelicLocalization is FissionLocalization {
+contract GaelicScottishGaelicLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "Mura");

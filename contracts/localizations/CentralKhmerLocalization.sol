@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "./FissionLocalization.sol";
 
-contract Central KhmerLocalization is FissionLocalization {
+contract CentralKhmerLocalization is FissionLocalization {
     constructor() public {
 
         set(hex"00", "ការបរាជ័យ");
